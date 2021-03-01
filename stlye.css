@@ -1,0 +1,149 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#scoreBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#playButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#restartscrn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  margin-top: 40vh;
+}
+
+
+#gameTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* buttons */
+
+#rock {
+  margin: 10px;
+  width: 100px;
+  height: 45px;
+  background-color: transparent;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px white;
+  font-size: 20px;
+}
+
+#paper {
+  margin: 10px;
+  width: 100px;
+  height: 45px;
+  background-color: transparent;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px white;
+  font-size: 20px;
+}
+
+#scissors {
+  margin: 10px;
+  width: 100px;
+  height: 45px;
+  background-color: transparent;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px white;
+  font-size: 20px;
+}
+
+#starter {
+  margin: 10px;
+  width: 70%;
+  height: 45px;
+  background-color: transparent;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px white;
+  font-size: 20px;
+}
+
+#restartbtn {
+  margin: 10px;
+  width: 70%;
+  height: 45px;
+  background-color: transparent;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px white;
+  font-size: 20px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+/* scoreboard */
+
+#playerScore {
+  margin: 10px;
+  font-size: 24px;
+  
+}
+
+#computerScore {
+  margin: 10px;
+  font-size: 24px;
+}
+
+#tie {
+  margin: 10px;
+  font-size: 24px;
+}
+
+#gameTitle {
+  margin: 10px;
+  font-size: 24px;
+}
+
+#winner {
+  margin: 10px;
+  font-size: 24px;
+}
